@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Visualization Application</title>
+  </head>
+  <body>
+    <h1>Pittsburgh Air Quality Visualization</h1>
+    <p>
+      This example D3 chart shows the Pittsburgh air quality situation. And the
+      first chart show the change of average air quality of month among
+      different stationa in a timeline. And the second chart show the counts of
+      main pollutants for all cities in Pittsburgh.
+    </p>
+    Show Raw Data <input type="checkbox" id="myCheckbox" />
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <style>
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 120px;
+        height: 40px;
+        padding: 2px;
+        font: 12px sans-serif;
+        background: none;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+    </style>
+  </body>
+</html>
