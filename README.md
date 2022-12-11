@@ -26,6 +26,25 @@ Weiyuan Zhang
 
 ## Summary Image
 
+[Visualization 1: Economic losses](https://public.flourish.studio/visualisation/119192)
+
+
+[Visualization 2: People Affected](https://public.flourish.studio/visualisation/119195)
+
+[Visualization 3: Tremendous Damage Dashboard](https://public.tableau.com/views/DV2_16695308153900/Dashboard1?:language=zh-CN&:display_count=n&:origin=viz_share_link)
+
+[Visualization 4: Most Influential Disasters in Various Countries by Year](https://jiangshuhe.github.io/Map3/map.html)
+
+[Visualization 5: Timeline of famous disasters](https://jiangshuhe.github.io/Map1/Timeline.html)
+
+
+[Visualization 6: Geographic Distribution](https://jiangshuhe.github.io/Map2/map.html)
+
+
+[Visualization 7: Psychological Injuries]()
+
+[Visualization 8: ]()
+
 
 ## Primary Data Source
 The primary data for this project were obtained from the Emergency Events Database [(EM-DAT)](https://www.emdat.be/). Information regarding the country, city, date, total number of people affected, total number of deaths, etc. for various types of natural disasters during the period 1920-2021 are selected. In addition, natural disasters that do not affect the public, such as mudslides that occur in deep forests, are excluded.
@@ -37,9 +56,7 @@ The primary data for this project were obtained from the Emergency Events Databa
 
 
 ## Webpage (Final Delivery)
-The following has some differences from the real web version, to see the webpage please check [here.](https://preview.shorthand.com/1qs94dfSZAumvWHV)
-
-<iframe src="https://preview.shorthand.com/1qs94dfSZAumvWHV?:showVizHome=no&:embed=true" width="90%" height="500" seamless frameborder="0" scrolling="yes"></iframe>
+To see the webpage please check [here.](https://preview.shorthand.com/1qs94dfSZAumvWHV)
 
 ## Work Allocation
 In order to better complete this project, our team assigned the tasks in details after determining the topic, met regularly to summarize and help each other solve problems. A more detailed allocation of duties is as follows.
