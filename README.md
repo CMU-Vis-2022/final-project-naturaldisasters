@@ -42,6 +42,16 @@ The following has some differences from the real web version, to see the webpage
 <iframe src="https://preview.shorthand.com/1qs94dfSZAumvWHV?:showVizHome=no&:embed=true" width="90%" height="500" seamless frameborder="0" scrolling="yes"></iframe>
 
 ## Work Allocation
+In order to better complete this project, our team assigned the tasks in details after determining the topic, met regularly to summarize and help each other solve problems. A more detailed allocation of duties is as follows.
 
+Junmo Qu: Layout and construction of the webpage, the interactive quiz, the Tremendous Damage section's data visualizations, and narratives for the Tremendous Damage and Call to action section.
+
+Shuhe Jiang: Timeline and Geo Location distribution visualizations for the Wide Impact section, presentation, and video recording.
+
+Zheyi Li: Exploratory data analysis, the first interactive data visualization in the Wide Impact section, and the data visualization in the Call to action section.
+
+Weiyuan Zhang: Exploratory data analysis, the Psychological Injuries section's data visualizations and narratives.
+
+For other tasks such as writing reports, we divided them equally.
 
 ## Commentary
