@@ -1,0 +1,83 @@
+---
+title: "Timeline"
+author: "Shuhe Jiang"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+---
+
+```{r setup, message=FALSE, echo=FALSE, warning=FALSE}
+
+library(data.table)
+library(tidyverse)
+library(dplyr)
+library(plotly)
+library(DT)
+library(knitr)
+library(readr)
+library(skimr)
+library(rgdal)
+
+# Initialize code chunk options
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  eval=TRUE,
+  echo = TRUE,
+  cache = FALSE,
+  fig.width = 7, 
+  fig.align = 'center',
+  fig.asp = 0.618,
+  out.width = "700px",
+  class.source = "code-r")
+```
+
+```{css, echo = FALSE}
+.code-r { /* Code block */
+  font-size: 15px;
+}
+
+.code-r-small { /* Code block */
+  font-size: 10px;
+}
+```
+
+<br>
+
+```{r, echo=FALSE}
+disaster<-read.csv("disaster_fill_date.csv")
+
+filtered_disaster<-disaster %>% 
+  filter(Disaster.Type=="Flood"|Disaster.Type=="Storm"|Disaster.Type=="Earthquake") %>%
+  arrange(desc(Total.Deaths)) %>% 
+  group_by(Disaster.Type) %>%
+  slice(1:10)
+
+filtered_disaster$Date<-as.Date(filtered_disaster$Date)
+filtered_disaster$constant<-0.1
+```
+
+```{r, warning=FALSE, echo=FALSE}
+colors <- c('#4AC6B7', '#1972A4', '#965F8A')
+
+fig <- plot_ly(filtered_disaster, x = ~Date, y = ~constant, color = ~Disaster.Type, size = ~Total.Deaths, colors = colors,
+        type = 'scatter', mode = 'markers', sizes = c(20, 150),
+        marker = list(symbol = 'circle', sizemode = 'diameter',
+                      line = list(width = 2, color = '#FFFFFF')),
+        text = ~paste('<br>Disaster:', Disaster.Type, '<br>Country:', Country, '<br>Date:', Date, '<br>Mangitude', 
+                      '(',Dis.Mag.Scale,'):', Dis.Mag.Value,  '<br>Total Death:', Total.Deaths,
+                      '<br>Economic Losses(USD):', Total.Damages...000.US..),
+        hoverinfo = 'text')
+        
+fig <- fig %>% layout(legend=list(title=list(text=' Single click to filter out <br> Double click to select')),
+  title = list(text = paste0('Timeline')), height = 400,
+         xaxis = list(title = 'Date',
+                      gridcolor = 'rgb(255, 255, 255)'),
+         yaxis = list(range=c(-0.2,0.4),showgrid = FALSE,showlegend=FALSE,showticklabels = FALSE),
+         paper_bgcolor = 'rgb(243, 243, 243)',
+         plot_bgcolor = 'rgb(243, 243, 243)',
+         hovermode = 'x')
+fig 
+
+```

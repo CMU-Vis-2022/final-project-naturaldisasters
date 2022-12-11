@@ -1,0 +1,89 @@
+---
+title: "map"
+author: "Shuhe Jiang"
+date: '2022-11-27'
+output: html_document
+---
+```{r setup, message=FALSE, echo=FALSE, warning=FALSE}
+
+library(data.table)
+library(tidyverse)
+library(dplyr)
+library(plotly)
+library(DT)
+library(knitr)
+library(readr)
+library(skimr)
+library(rgdal)
+
+# Initialize code chunk options
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  eval=TRUE,
+  echo = TRUE,
+  cache = FALSE,
+  fig.width = 7, 
+  fig.align = 'center',
+  fig.asp = 0.618,
+  out.width = "700px",
+  class.source = "code-r")
+```
+
+```{css, echo = FALSE}
+.code-r { /* Code block */
+  font-size: 15px;
+}
+
+.code-r-small { /* Code block */
+  font-size: 10px;
+}
+```
+
+<br>
+
+
+```{r, echo = FALSE}
+disaster<-read.csv("disaster_fill_date.csv")
+
+map_disaster<-disaster %>% 
+  filter(Longitude>=-180 & Latitude>=-90) %>%
+  filter(Disaster.Type=="Flood"|Disaster.Type=="Storm"|Disaster.Type=="Earthquake") %>%
+  arrange(desc(Total.Deaths)) %>% 
+  group_by(Disaster.Type)
+  
+
+map_disaster$Date<-as.Date(map_disaster$Date)
+map_disaster$constant<-0.1
+
+map_disaster$Longitude<-as.numeric(map_disaster$Longitude)
+map_disaster$Latitude<-as.numeric(map_disaster$Latitude)
+```
+
+
+```{r warning=FALSE, echo = FALSE}
+library(plotly)
+
+g <- list(
+  scope = 'world',
+  projection = list(type = 'orthographic'),
+  showland = TRUE,
+  landcolor = toRGB("gray85"),
+  subunitwidth = 1,
+  countrywidth = 1,
+  subunitcolor = toRGB("white"),
+  countrycolor = toRGB("white")
+)
+
+fig <- plot_geo(map_disaster, sizes = c(10, 1000))
+fig <- fig %>% add_markers(
+    x = ~Longitude, y = ~Latitude, size = ~Total.Deaths, color = ~Disaster.Type, hoverinfo = "text",
+    text = ~paste('<br>Disaster:', Disaster.Type, '<br>Country:', Country, '<br>Date:', Date, '<br>Mangitude', 
+                      '(',Dis.Mag.Scale,'):', Dis.Mag.Value,  '<br>Total Death:', Total.Deaths,
+                      '<br>Economic Losses(USD):', Total.Damages...000.US..)
+  )
+fig <- fig %>% layout(title = 'Disaster Map', geo = g)
+
+fig
+```
+
