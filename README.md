@@ -26,10 +26,10 @@ Weiyuan Zhang
 
 ## Summary Image
 
-[Visualization 1: Economic losses](https://public.flourish.studio/visualisation/119192)
+[Visualization 1: Economic losses](https://public.flourish.studio/visualisation/11919208/)
 
 
-[Visualization 2: People Affected](https://public.flourish.studio/visualisation/119195)
+[Visualization 2: People Affected](https://public.flourish.studio/visualisation/11919502/)
 
 [Visualization 3: Tremendous Damage Dashboard](https://public.tableau.com/views/DV2_16695308153900/Dashboard1?:language=zh-CN&:display_count=n&:origin=viz_share_link)
 
