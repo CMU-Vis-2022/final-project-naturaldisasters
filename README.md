@@ -41,7 +41,7 @@ Weiyuan Zhang
 [Visualization 6: Geographic Distribution](https://jiangshuhe.github.io/Map2/map.html)
 
 
-[Visualization 7: Psychological Injuries]()
+[Visualization 7: Psychological Injuries](/dataviz.md)
 
 [Visualization 8: ]()
 
