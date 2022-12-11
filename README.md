@@ -59,3 +59,4 @@ Exploratory data analysis, the Psychological Injuries section's data visualizati
 For other tasks such as writing reports, we divided them equally.
 
 ## Commentary
+The whole cooperation process was relatively smooth, thanks to our meticulous planning. During this process, there were some difficulties in how to import the interactive visualizations into the online webpage, how to embed the visualizations into the final webpage, and the logic of the storytelling. After continuous discussions and attempts, we finally overcame these difficulties and completed this project. It is a very memorable and fulfilling experience for our whole group.
