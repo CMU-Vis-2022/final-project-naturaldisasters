@@ -51,7 +51,7 @@ Weiyuan Zhang
 
 [Visualization 7: Psychological Injuries](/dataviz.md)
 
-[Visualization 8: ]()
+[Visualization 8: Disaster Inquiry by Country](https://huggingface.co/spaces/zheyil/choose)
 
 
 ## Primary Data Source
