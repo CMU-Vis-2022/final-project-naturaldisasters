@@ -15,7 +15,7 @@
 ## Team Members
 Junmo Qu 
 
-Shuhe Jiang (shuhej)
+Shuhe Jiang 
 
 Zheyi Li
 
@@ -66,7 +66,7 @@ The primary data for this project were obtained from the Emergency Events Databa
 
 
 ## Video
-
+[Here](https://drive.google.com/file/d/1VCxzPV4Kq6JkCCKLJIXfNslyyJGWPTPh/view?usp=sharing) is a demo video for our project, please take a look.
 
 ## Webpage (Final Delivery)
 To see the webpage please check [here.](https://preview.shorthand.com/1qs94dfSZAumvWHV)
