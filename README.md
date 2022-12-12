@@ -22,15 +22,20 @@ Zheyi Li
 Weiyuan Zhang
 
 ## Abstract
-**Introduction** Natural disasters caused millions of casualties and global economy suffers great loss every year. We aim to create an interactive website that visualize natural disasters occurred in the past 50 years in order to help people know more about different catastrophes and call to action. 
+**Introduction** 
+Natural disasters caused millions of casualties and global economy suffers great loss every year. We aim to create an interactive website that visualize natural disasters occurred in the past 50 years in order to help people know more about different catastrophes and call to action. 
 
-**Dataset** We visualized the natural disaster dataset from CRED. The dataset contains 14643 observations of 17 variables that records global catastrophes  since 1970. 
+**Dataset** 
+We visualized the natural disaster dataset from CRED. The dataset contains 14643 observations of 17 variables that records global catastrophes  since 1970. 
 
-**Methods** We used data visualization tools (Flourish and Tableau) together with Plotly and matplotlib packages in R and Python to visualize our data which followed by a web page construction utilizing Shorthand.
+**Methods** 
+We used data visualization tools (Flourish and Tableau) together with Plotly and matplotlib packages in R and Python to visualize our data which followed by a web page construction utilizing Shorthand.
 
-**Results** 101.8 million people were affected by natural disasters in 2021 and the total economic loss in 2021 is 270 billion dollars. Among all catastrophes, earthquake, flood and storm are the top three disasters that cause the most economic loss. Among 18500 evacuees of Tōhoku earthquake 2011, 14·6% in 2011, 11·7% in 2012, and 10·3% in 2013 screened positive for high distress, and 21·6% in 2011, 17·4% in 2012, and 17·2% in 2013 had probable post-traumatic stress disorder (PTSD). Globally, 170000 residents, 60000 students, 50000 patients and 60000 employees were suffering from mental issues within a year.
+**Results** 
+101.8 million people were affected by natural disasters in 2021 and the total economic loss in 2021 is 270 billion dollars. Among all catastrophes, earthquake, flood and storm are the top three disasters that cause the most economic loss. Among 18500 evacuees of Tōhoku earthquake 2011, 14·6% in 2011, 11·7% in 2012, and 10·3% in 2013 screened positive for high distress, and 21·6% in 2011, 17·4% in 2012, and 17·2% in 2013 had probable post-traumatic stress disorder (PTSD). Globally, 170000 residents, 60000 students, 50000 patients and 60000 employees were suffering from mental issues within a year.
 
-**Conclusion** Natural disasters bring not only physical casualties and economic loss but also mental issues to millions of people around the world every year. Nevertheless, people can learn from past disaster with our website for better disaster prediction, post-disaster management and reconstruction in the future.
+**Conclusion** 
+Natural disasters bring not only physical casualties and economic loss but also mental issues to millions of people around the world every year. Nevertheless, people can learn from past disaster with our website for better disaster prediction, post-disaster management and reconstruction in the future.
 
 ## Summary Image
 
