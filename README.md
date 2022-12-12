@@ -15,7 +15,7 @@
 ## Team Members
 Junmo Qu 
 
-Shuhe Jiang
+Shuhe Jiang (shuhej)
 
 Zheyi Li
 
