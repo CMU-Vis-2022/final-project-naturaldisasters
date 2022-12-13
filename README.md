@@ -69,7 +69,7 @@ The primary data for this project were obtained from the Emergency Events Databa
 [Here](https://drive.google.com/file/d/1VCxzPV4Kq6JkCCKLJIXfNslyyJGWPTPh/view?usp=sharing) is a demo video for our project, please take a look.
 
 ## Webpage (Final Delivery)
-To see the webpage please check [here.](https://preview.shorthand.com/1qs94dfSZAumvWHV)
+To see the webpage please check [here.](https://carnegiemellon.shorthandstories.com/7ccf85b6-bf4e-4e3d-8150-7d181dcf7d61/index.html)
 
 ## Work Allocation
 In order to better complete this project, our team assigned the tasks in details after determining the topic, met regularly to summarize and help each other solve problems. A more detailed allocation of duties is as follows.
