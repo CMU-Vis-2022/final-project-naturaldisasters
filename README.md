@@ -63,7 +63,7 @@ Natural disasters bring not only physical casualties and economic loss but also 
 The primary data for this project were obtained from the Emergency Events Database [(EM-DAT)](https://www.emdat.be/). Information regarding the country, city, date, total number of people affected, total number of deaths, etc. for various types of natural disasters during the period 1920-2021 are selected. In addition, natural disasters that do not affect the public, such as mudslides that occur in deep forests, are excluded.
 
 ## Paper
-The report for this project can be found [here]().
+The report for this project can be found [here](https://github.com/CMU-Vis-2022/final-project-naturaldisasters/blob/d9700eb8e66275f11833e2badf11bb10abfbee5f/final%20report.pdf).
 
 ## Video
 [Here](https://drive.google.com/file/d/1VCxzPV4Kq6JkCCKLJIXfNslyyJGWPTPh/view?usp=sharing) is a demo video for our project, please take a look.
